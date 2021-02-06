@@ -19,7 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blackColor];
-    
+    self.view.backgroundColor = [UIColor blackColor];
+    self.view.backgroundColor = [UIColor blackColor];
+    self.view.backgroundColor = [UIColor yellowColor];
+    self.view.backgroundColor = [UIColor blackColor];
+
     [self makeCollectionView];
     
     /**
@@ -58,7 +62,7 @@
     return cell;
 }
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
-    return CGSizeMake(300, 400);
+    return CGSizeMake(300, 100);
 }
 
 @end
