@@ -18,10 +18,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor blackColor];
     
     [self makeCollectionView];
     
+    /**
+     fasdhfdsa 
+     <#condition#>
+     */
 
 }
 - (void) makeCollectionView{
@@ -54,7 +58,7 @@
     return cell;
 }
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
-    return CGSizeMake(200, 100);
+    return CGSizeMake(300, 400);
 }
 
 @end
